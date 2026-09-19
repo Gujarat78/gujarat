@@ -1,0 +1,518 @@
+
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ગુજરાતી ટ્રેડર | GUJARATI TRADER</title>
+
+<!-- ================= META PIXEL ================= -->
+
+<script>
+    !function(f,b,e,v,n,t,s)
+    {
+        if(f.fbq)return;
+
+        n=f.fbq=function(){
+            n.callMethod ?
+            n.callMethod.apply(n,arguments) :
+            n.queue.push(arguments)
+        };
+
+        if(!f._fbq)f._fbq=n;
+
+        n.push=n;
+        n.loaded=!0;
+        n.version='2.0';
+        n.queue=[];
+
+        t=b.createElement(e);
+        t.async=!0;
+        t.src=v;
+
+        s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)
+
+    }(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+    );
+
+    fbq('init', '1367861342206074');
+    fbq('track', 'PageView');
+</script>
+
+<noscript>
+    <img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=1367861342206074&ev=PageView&noscript=1"
+        alt=""
+    >
+</noscript>
+
+
+<!-- ================= CSS ================= -->
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #0f1117;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+    /* ================= PROFILE ================= */
+
+    .profile {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 4px solid #00ff88;
+        object-fit: cover;
+
+        box-shadow:
+            0 0 15px rgba(0,255,136,0.35),
+            0 0 30px rgba(0,255,136,0.15);
+
+        margin-top: 20px;
+    }
+
+
+    /* ================= TITLE ================= */
+
+    h1 {
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin-top: 8px;
+        font-size: 18px;
+        color: #00ff88;
+        font-weight: 600;
+    }
+
+
+    /* ================= BADGE ================= */
+
+    .badge {
+        display: inline-block;
+
+        background: #00ff88;
+        color: #000000;
+
+        padding: 8px 15px;
+
+        border-radius: 20px;
+
+        font-weight: 700;
+
+        margin-top: 15px;
+    }
+
+
+    /* ================= TELEGRAM BUTTON ================= */
+
+    .telegram-btn {
+        display: block;
+
+        background: #00c853;
+        color: #ffffff;
+
+        text-decoration: none;
+
+        padding: 16px;
+
+        margin: 25px 0;
+
+        border-radius: 12px;
+
+        font-size: 18px;
+        font-weight: 700;
+
+        box-shadow:
+            0 5px 15px rgba(0,200,83,0.25);
+
+        transition: all 0.2s ease;
+    }
+
+    .telegram-btn:hover {
+        background: #00e676;
+        transform: translateY(-2px);
+    }
+
+
+    /* ================= CONTENT BOX ================= */
+
+    .box {
+        background: #171b26;
+
+        padding: 18px;
+
+        border-radius: 14px;
+
+        margin-top: 18px;
+
+        border: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .box h3 {
+        margin-bottom: 12px;
+        line-height: 1.5;
+    }
+
+    .box p {
+        color: #dddddd;
+        line-height: 1.7;
+    }
+
+
+    /* ================= BENEFITS ================= */
+
+    .benefits {
+        text-align: left;
+
+        line-height: 2;
+
+        color: #eeeeee;
+    }
+
+
+    /* ================= URGENCY ================= */
+
+    .urgency {
+        background: #ff9800;
+        color: #000000;
+
+        padding: 16px;
+
+        border-radius: 12px;
+
+        font-weight: 700;
+
+        margin-top: 20px;
+
+        line-height: 1.5;
+    }
+
+
+    /* ================= DISCLAIMER ================= */
+
+    .disclaimer {
+        margin-top: 25px;
+
+        font-size: 12px;
+
+        color: #bdbdbd;
+
+        line-height: 1.7;
+
+        text-align: left;
+
+        background: #171b26;
+
+        padding: 15px;
+
+        border-radius: 10px;
+    }
+
+    .disclaimer strong {
+        color: #ffffff;
+    }
+
+
+    /* ================= COPYRIGHT ================= */
+
+    .footer {
+        margin-top: 20px;
+
+        font-size: 13px;
+
+        color: #888888;
+    }
+
+
+    /* ================= AD BUILD AGENCY ================= */
+
+    .zth-footer {
+        width: 100%;
+        max-width: 500px;
+
+        margin: 25px auto 5px;
+
+        padding: 12px 10px;
+
+        font-size: 12px;
+
+        color: #777777;
+
+        text-align: center;
+
+        line-height: 1.6;
+    }
+
+    .zth-footer a {
+        color: #00ff88;
+
+        text-decoration: none;
+
+        font-weight: 700;
+    }
+
+    .zth-footer a:hover {
+        color: #00e676;
+
+        text-decoration: underline;
+    }
+
+    .zth-footer .agency-dot {
+        color: #777777;
+    }
+
+
+    /* ================= MOBILE ================= */
+
+    @media (max-width: 480px) {
+
+        body {
+            padding: 15px;
+        }
+
+        .profile {
+            width: 125px;
+            height: 125px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .telegram-btn {
+            font-size: 17px;
+        }
+
+        .box {
+            padding: 16px;
+        }
+
+        .benefits {
+            font-size: 14px;
+        }
+
+    }
+
+</style>
+
+</head> <body>
+<!-- ================= MAIN CONTAINER ================= -->
+
+<main class="container">
+
+
+    <!-- PROFILE IMAGE -->
+
+    <img
+        src="https://i.ibb.co/F44KXTX7/Screenshot-2026-08-22-11-52-39-01-1c337646f29875672b5a61192b9010f9.jpg"
+        alt="Gujarati Trader"
+        class="profile"
+    >
+
+
+    <!-- TITLE -->
+
+    <h1>
+        ગુજરાતી ટ્રેડર
+    </h1>
+
+
+    <!-- SUBTITLE -->
+
+    <div class="subtitle">
+        NIFTY • BANKNIFTY • OPTIONS
+    </div>
+
+
+    <!-- FREE BADGE -->
+
+    <div class="badge">
+        🔥 FREE TELEGRAM ACCESS
+    </div>
+
+
+    <!-- TELEGRAM BUTTON -->
+
+    <a
+        href="https://t.me/+XnjpSHpDP4QxMDBl"
+        class="telegram-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        🚀 JOIN FREE TELEGRAM
+    </a>
+
+
+    <!-- ================= TRUST BOX ================= -->
+
+    <section class="box">
+
+        <h3>
+            📈 ટ્રેડર્સનો વિશ્વાસ | Trusted By Traders
+        </h3>
+
+        <p>
+            5000+ સક્રિય સભ્યો અમારી ટ્રેડિંગ કોમ્યુનિટી સાથે જોડાયેલા છે
+
+            <br><br>
+
+            5000+ Active Members Already Connected With Our Trading Community
+        </p>
+
+    </section>
+
+
+    <!-- ================= BENEFITS BOX ================= -->
+
+    <section class="box">
+
+        <h3>
+            ✅ તમને શું મળશે | What You Will Get
+        </h3>
+
+        <div class="benefits">
+
+            <div>
+                ✅ દૈનિક માર્કેટ એનાલિસિસ | Daily Market Analysis
+            </div>
+
+            <div>
+                ✅ NIFTY & BANKNIFTY અપડેટ્સ | NIFTY & BANKNIFTY Updates
+            </div>
+
+            <div>
+                ✅ ઓપ્શન ટ્રેડિંગ સેટઅપ્સ | Options Trading Setups
+            </div>
+
+            <div>
+                ✅ ઇન્ટ્રાડે ટ્રેડિંગ આઈડિયાઝ | Intraday Trading Ideas
+            </div>
+
+            <div>
+                ✅ શૈક્ષણિક કન્ટેન્ટ | Educational Content
+            </div>
+
+            <div>
+                ✅ રિસ્ક મેનેજમેન્ટ માર્ગદર્શન | Risk Management Guidance
+            </div>
+
+            <div>
+                ✅ લાઈવ માર્કેટ ચર્ચા | Live Market Discussions
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= URGENCY ================= -->
+
+    <div class="urgency">
+
+        ⏰ FREE ACCESS MAY CLOSE SOON
+
+        <br><br>
+
+        JOIN NOW BEFORE THE COMMUNITY BECOMES PAID
+
+    </div>
+
+
+    <!-- ================= DISCLAIMER ================= -->
+
+    <section class="disclaimer">
+
+        <strong>
+            ડિસ્કલેમર | Disclaimer
+        </strong>
+
+        <br><br>
+
+        ⚠️ We are not SEBI registered investment advisors.
+        All information shared is for educational purposes only.
+        Trading and investing involve risk.
+
+    </section>
+
+
+    <!-- ================= COPYRIGHT ================= -->
+
+    <div class="footer">
+
+        © 2026 ગુજરાતી ટ્રેડર | GUJARATI TRADER
+
+    </div>
+
+
+</main>
+
+
+<!-- ================= AD BUILD AGENCY FOOTER ================= -->
+
+<footer class="zth-footer">
+
+    🔥 Ads by
+
+    <a
+        href="https://t.me/+3XoqJNLxYHswNTc1"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        ADbuildagency
+    </a>
+
+    <span class="agency-dot">
+        • Digital Growth 🚀
+    </span>
+
+</footer>
+
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1388836029568665');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1388836029568665&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</body> </html>
